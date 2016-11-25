@@ -1,0 +1,169 @@
+@import url("http://fonts.googleapis.com/css?family=Alice|Montserrat");
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+body {
+  background-color: #fefefa;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.container {
+  color: #fefefa;
+  background-color: #fefefa;
+  padding: 0;
+  margin: 5px auto;
+}
+
+.text {
+  text-align: center;
+  color: #414141;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  line-height: 45px;
+  font-size: 2vw;
+  padding: 0 0 15px 0;
+  margin: 25px 0 10px 0;
+}
+@media (max-width: 1600px) {
+  .text {
+    font-size: 32px;
+  }
+}
+
+.inputBox {
+  text-align: center;
+  color: #414141;
+  padding: 10px 0 20px 0;
+}
+
+.inputSearch {
+  width: 315px;
+  border: 4px solid;
+  border-radius: 30px;
+  border-color: #414141;
+  background: #fefefa;
+  padding: 5px 0 5px 10px;
+  font-size: 25px;
+  font-family: 'Alice', serif;
+  font-weight: normal;
+  text-transform: lowercase;
+  outline: none;
+}
+
+.btnBox {
+  text-align: center;
+  background: #fefefa;
+}
+
+.btn {
+  text-align: center;
+  width: 100px;
+  height: 60px;
+  color: #fefefa;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transform: rotate(3deg);
+  text-decoration: none;
+}
+
+.searchBtn {
+  background-color: #ff6a5c;
+}
+
+.randomBtn {
+  background-color: #ff6a5c;
+  text-align: center;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+}
+
+.resetBtn {
+  background-color: #4abdac;
+}
+
+.btnText {
+  font-family: 'Alice', serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 23px;
+  margin: 0;
+  padding: 0 0 2px;
+  color: #fefefa;
+}
+
+i {
+  color: #fefefa;
+}
+
+.queryInvalid {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Alice', serif;
+  font-weight: normal;
+  color: #414141;
+  padding: 50px 0 0 0;
+}
+
+.queryTitle {
+  text-align: center;
+  color: #ff6a5c;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+  padding: 25px 0 0 0;
+}
+
+.queryTitle:hover {
+  cursor: pointer;
+  transform: rotate(3deg);
+  text-decoration: none;
+}
+
+.querySnippet {
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Alice', serif;
+  font-weight: normal;
+  color: #414141;
+  padding: 0 2px 0 2px;
+}
+
+a {
+  color: #056571;
+  text-decoration: none;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+  color: #056571;
+}
+
+.queryTitle a:hover {
+  opacity: .7;
+}
