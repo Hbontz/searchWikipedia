@@ -26,6 +26,9 @@ $(document).ready(function() {
   $("#searchBtn").on("click", function() {
     searchData();
   });
+  $(".randomBtn").on("click", function() {
+    window.open('https://en.wikipedia.org/wiki/Special:Random');
+  });
   $('#inputField').keyup(function(e) {
     var key = e.keyCode || e.which;
     if (key === 13) searchData();
